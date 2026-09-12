@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇷 希腊 (Greece) 01 - xiaohe",
+      "tag": "🇬🇷 希腊 (Greece) 01 - MYX",
       "server": "94.241.174.157",
       "server_port": 40443,
       "uuid": "8ac637bf-554e-4902-94d7-baf01780a83c",
@@ -25,18 +25,31 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇬🇷 希腊 (Greece) 02 - MYX",
+      "server": "185.126.238.87",
+      "server_port": 2083,
+      "uuid": "7668f678-faee-40cc-9b56-9c39dc773388",
+      "transport": {
+        "type": "grpc",
+        "service_name": "security.debian.org"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇷 希腊 (Greece) 01 - xiaohe"
+        "🇬🇷 希腊 (Greece) 01 - MYX",
+        "🇬🇷 希腊 (Greece) 02 - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇷 希腊 (Greece) 01 - xiaohe"
+        "🇬🇷 希腊 (Greece) 01 - MYX",
+        "🇬🇷 希腊 (Greece) 02 - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

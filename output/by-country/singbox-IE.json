@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - MYX",
       "server": "ir-new1.failspace.top",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -13,7 +13,11 @@
       "tls": {
         "enabled": true,
         "server_name": "ir-new1.failspace.top",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -21,14 +25,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 01 - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 01 - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

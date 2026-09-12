@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe",
+      "tag": "🇿🇦 南非 (South Africa) 01 - MYX",
       "server": "139.84.247.164",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -13,7 +13,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe",
+      "tag": "🇿🇦 南非 (South Africa) 02 - MYX",
       "server": "102.37.156.224",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -21,7 +21,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 03 - xiaohe",
+      "tag": "🇿🇦 南非 (South Africa) 03 - MYX",
       "server": "102.133.165.160",
       "server_port": 16233,
       "method": "chacha20-ietf-poly1305",
@@ -32,18 +32,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 南非 (South Africa) 01 - xiaohe",
-        "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - MYX",
+        "🇿🇦 南非 (South Africa) 02 - MYX",
+        "🇿🇦 南非 (South Africa) 03 - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 南非 (South Africa) 01 - xiaohe",
-        "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - MYX",
+        "🇿🇦 南非 (South Africa) 02 - MYX",
+        "🇿🇦 南非 (South Africa) 03 - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

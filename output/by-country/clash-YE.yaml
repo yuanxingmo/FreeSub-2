@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇾🇪 YE 01 - xiaohe
+- name: 🇾🇪 YE 01 - MYX
   server: z-jp1.1card.cc
   port: 10010
   udp: true
@@ -17,12 +17,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇾🇪 YE 01 - xiaohe
+  - 🇾🇪 YE 01 - MYX
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇾🇪 YE 01 - xiaohe
+  - 🇾🇪 YE 01 - MYX
 rules:
 - MATCH,PROXIES

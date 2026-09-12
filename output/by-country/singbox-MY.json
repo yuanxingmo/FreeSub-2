@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - MYX",
       "server": "47.250.84.25",
       "server_port": 443,
       "password": "5931134d1cde66bf83a54acdfebe7ab2",
@@ -17,7 +17,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - MYX",
       "server": "38.60.168.98",
       "server_port": 2087,
       "uuid": "8a346b7c-5b95-4845-affa-0e5d9929e9ae",
@@ -27,37 +27,20 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe",
-      "server": "47.250.45.234",
-      "server_port": 43063,
-      "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/arki",
-        "headers": {
-          "Host": "47.250.45.234"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe"
+        "🇲🇾 马来西亚 (Malaysia) 01 - MYX",
+        "🇲🇾 马来西亚 (Malaysia) 02 - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe"
+        "🇲🇾 马来西亚 (Malaysia) 01 - MYX",
+        "🇲🇾 马来西亚 (Malaysia) 02 - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

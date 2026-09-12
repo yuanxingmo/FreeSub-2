@@ -4,32 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 01 - MYX
   server: 31.58.181.88
   port: 8443
   udp: true
   type: vless
-  uuid: fa34a94b-f304-4290-bd94-a83cc2ce21be
+  uuid: ab3a17ae-4d4f-45ff-a05f-4d27b7f97838
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
   servername: tradingview.com
-  client-fingerprint: edge
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: 31.56.189.27
-  port: 2087
-  udp: true
-  type: vless
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
-  tls: true
-  servername: srv-21bac9.vless.monster
-  skip-cert-verify: false
   client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: freegrpc
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 02 - MYX
   server: 130.49.161.70
   port: 443
   udp: true
@@ -39,7 +26,19 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 03 - MYX
+  server: 31.56.189.27
+  port: 2087
+  udp: true
+  type: vless
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  tls: true
+  servername: srv-21bac9.vless.monster
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: freegrpc
+- name: 🇦🇪 阿联酋 (UAE) 04 - MYX
   server: 85.204.107.181
   port: 8080
   udp: true
@@ -52,18 +51,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 01 - MYX
+  - 🇦🇪 阿联酋 (UAE) 02 - MYX
+  - 🇦🇪 阿联酋 (UAE) 03 - MYX
+  - 🇦🇪 阿联酋 (UAE) 04 - MYX
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 01 - MYX
+  - 🇦🇪 阿联酋 (UAE) 02 - MYX
+  - 🇦🇪 阿联酋 (UAE) 03 - MYX
+  - 🇦🇪 阿联酋 (UAE) 04 - MYX
 rules:
 - MATCH,PROXIES

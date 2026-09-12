@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
+- name: 🇮🇪 爱尔兰 (Ireland) 01 - MYX
   server: ir-new1.failspace.top
   port: 443
   udp: true
@@ -14,17 +14,18 @@ proxies:
   tls: true
   servername: ir-new1.failspace.top
   skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
+  - 🇮🇪 爱尔兰 (Ireland) 01 - MYX
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
+  - 🇮🇪 爱尔兰 (Ireland) 01 - MYX
 rules:
 - MATCH,PROXIES

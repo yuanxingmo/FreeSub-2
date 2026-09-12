@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "172.64.42.85",
-      "server_port": 8080,
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - MYX",
+      "server": "104.18.47.113",
+      "server_port": 80,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -19,15 +19,35 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - MYX",
       "server": "36.224.152.189",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - MYX",
+      "server": "118.167.209.5",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - MYX",
       "server": "22f60053-tlheo0-tzxeoy-hns7.hk3.hyhuawei.com",
       "server_port": 443,
       "uuid": "6857f1bc-f27b-11ea-87ad-f23c913c8d2b",
@@ -47,7 +67,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 (家宽) - MYX",
       "server": "roma2.moritech.net",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -67,20 +87,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - MYX",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - MYX",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - MYX",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - MYX",
+        "🇷🇴 罗马尼亚 (Romania) 05 (家宽) - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - MYX",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - MYX",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - MYX",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - MYX",
+        "🇷🇴 罗马尼亚 (Romania) 05 (家宽) - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

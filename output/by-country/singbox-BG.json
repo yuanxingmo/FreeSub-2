@@ -4,8 +4,36 @@
   },
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - MYX",
+      "server": "213.183.63.60",
+      "server_port": 9028,
+      "method": "aes-256-cfb",
+      "password": "9eeJ2fwnZA5Fxgz8"
+    },
+    {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - MYX",
+      "server": "192.145.31.5",
+      "server_port": 8443,
+      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth9.lunariai.ru",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - MYX",
       "server": "193.148.59.178",
       "server_port": 443,
       "uuid": "20d7c485-5d24-49b5-a5cc-bb7a7daf9908",
@@ -26,24 +54,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-      "server": "192.145.31.5",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
-      "server": "prep.wwwinternetvideo.click",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - MYX",
+      "server": "144.31.50.236",
       "server_port": 443,
       "uuid": "1c332eae-7e02-4acd-996d-4eb3e652401c",
       "flow": "xtls-rprx-vision",
@@ -52,7 +64,7 @@
         "server_name": "yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -66,18 +78,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - MYX",
+        "🇧🇬 保加利亚 (Bulgaria) 02 - MYX",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - MYX",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - MYX",
+        "🇧🇬 保加利亚 (Bulgaria) 02 - MYX",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - MYX",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

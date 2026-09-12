@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - MYX",
       "server": "109.206.241.10",
       "server_port": 449,
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
@@ -16,20 +16,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
-      "server": "217.60.182.79",
-      "server_port": 443,
-      "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
-      "tls": {
-        "enabled": true,
-        "server_name": "cabinet.wwwinternetvideo.click",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - MYX",
       "server": "94.183.170.135",
       "server_port": 443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
@@ -40,7 +28,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - MYX",
       "server": "94.183.170.135",
       "server_port": 8443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
@@ -48,14 +36,22 @@
         "enabled": true,
         "server_name": "estproxy4.lockdwn.com",
         "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "firefox"
         }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - MYX",
+      "server": "217.60.182.79",
+      "server_port": 443,
+      "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
+      "tls": {
+        "enabled": true,
+        "server_name": "cabinet.wwwinternetvideo.click",
+        "insecure": true
       }
     },
     {
@@ -63,20 +59,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - MYX",
+        "🇪🇪 爱沙尼亚 (Estonia) 02 - MYX",
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - MYX",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - MYX"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - MYX",
+        "🇪🇪 爱沙尼亚 (Estonia) 02 - MYX",
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - MYX",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - MYX"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
