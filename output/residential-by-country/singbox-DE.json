@@ -4,27 +4,28 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - MYX",
-      "server": "89.47.55.9",
-      "server_port": 8443,
-      "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
+      "type": "trojan",
+      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
+      "server": "167.82.76.7",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.com",
+        "server_name": "ssl.fastly.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TWaatavWGcWV-E7c4AXmBXypLKJzm6eR3FGG61spayQ",
-          "short_id": ""
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "TunService"
+        "type": "ws",
+        "headers": {
+          "Host": "mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net"
+        }
       }
     },
     {
@@ -32,14 +33,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - MYX"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - MYX"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
