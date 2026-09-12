@@ -4,28 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
-  server: 167.82.76.7
-  port: 443
+- name: 🇲🇲 缅甸 (Myanmar) 01 - xiaohe
+  server: z-sg2.6send.com
+  port: 10046
   udp: true
   type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  sni: z-sg2.6send.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
+  - 🇲🇲 缅甸 (Myanmar) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
+  - 🇲🇲 缅甸 (Myanmar) 01 - xiaohe
 rules:
 - MATCH,PROXIES

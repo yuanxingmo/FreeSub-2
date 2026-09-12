@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 192.145.31.5
+  server: neth9.lunariai.ru
   port: 8443
   udp: true
   type: vless
@@ -13,7 +13,6 @@ proxies:
   tls: true
   servername: neth9.lunariai.ru
   skip-cert-verify: false
-  client-fingerprint: chrome
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 193.148.59.178
   port: 443
@@ -28,7 +27,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 144.31.50.236
+  server: prep.wwwinternetvideo.click
   port: 443
   udp: true
   type: vless
@@ -39,7 +38,7 @@ proxies:
     public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
     short-id: bbe46bd8f6b96839
   servername: yandex.ru
-  client-fingerprint: random
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

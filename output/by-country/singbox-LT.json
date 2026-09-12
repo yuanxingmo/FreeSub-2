@@ -31,7 +31,7 @@
         "server_name": "lit9.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
