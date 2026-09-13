@@ -5,32 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 31.77.199.182
-  port: 443
+  server: 65.109.189.128
+  port: 2086
   udp: true
-  type: vless
-  uuid: c09cfd91-b234-4998-9bed-a0211b7f5c3c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: -qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04
-    short-id: abcd1234
-  servername: fi2.yservice.help
-  client-fingerprint: chrome
+  type: vmess
+  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+  alterId: 0
+  cipher: auto
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: nkipfbym.danqela.ir
-  port: 55395
-  udp: true
-  type: vless
-  uuid: 7dd0330c-de3d-4b7b-9b34-b034ded5a12f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: jHypmaRb2ty-1TQm_rLv4_K6j_m_NDSA2-kq-LmeMDs
-    short-id: 3e3f85ae3550faea
-  servername: pio.hosting
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: fin.pinkmoon.pro
   port: 443
   udp: true
@@ -43,6 +25,27 @@ proxies:
     short-id: 8ffa160e608bf539
   servername: fin.pinkmoon.pro
   client-fingerprint: qq
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  server: fr.vpn.legendaah.xyz
+  port: 36723
+  udp: true
+  type: hysteria2
+  password: Krab9Hyst2_Rk7pQ2xL
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 171.22.129.56
+  port: 2053
+  udp: true
+  type: vless
+  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
+    short-id: beff3ff061a64cfd
+  servername: fi-one.quiet-rogue.site
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,6 +54,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - xiaohe
   - 🇫🇮 芬兰 (Finland) 02 - xiaohe
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,5 +63,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - xiaohe
   - 🇫🇮 芬兰 (Finland) 02 - xiaohe
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
 rules:
 - MATCH,PROXIES
