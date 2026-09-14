@@ -1,0 +1,52 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 172.67.155.252
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  tls: true
+  servername: 2-m13.0ee25773-D3D3-479D-a8fF-3F51D1D20031.kDNs.fR
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-m13.0ee25773-D3d3-479D-a8ff-3F51d1D20031.kDnS.Fr
+- name: 🌐 其他地区 (Other) 02 - xiaohe
+  server: 104.21.13.173
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  tls: true
+  servername: 1-M13.4B49f101-6328-41C6-953d-00Ceb79B58aC.kdNs.Fr
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 1-m13.4b49F101-6328-41C6-953d-00cEB79B58aC.KDns.Fr
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🌐 其他地区 (Other) 02 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🌐 其他地区 (Other) 02 - xiaohe
+rules:
+- MATCH,PROXIES
