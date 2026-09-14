@@ -5,16 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "194.87.59.12",
+      "server_port": 2085,
+      "uuid": "128314f6-f09a-426f-b758-b8e559c38ddb",
       "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "ais.speedtest.net"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
@@ -22,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
