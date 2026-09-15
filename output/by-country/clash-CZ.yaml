@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.21.96.1
+  server: 45.147.49.149
   port: 443
   udp: true
   type: vless
-  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /posts/novels/order?ed=2560
     headers:
-      Host: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select

@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.96.1",
+      "server": "45.147.49.149",
       "server_port": 443,
-      "uuid": "0836463b-214f-4af6-aa85-85a56a62388e",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,8 +20,9 @@
       },
       "transport": {
         "type": "ws",
+        "path": "/posts/novels/order?ed=2560",
         "headers": {
-          "Host": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
