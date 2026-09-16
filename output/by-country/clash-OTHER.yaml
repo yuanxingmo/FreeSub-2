@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   server: 188.114.97.6
-  port: 2086
+  port: 2052
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -16,20 +16,16 @@ proxies:
     headers:
       Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.19.87.194
-  port: 443
+  server: 188.114.97.6
+  port: 2052
   udp: true
   type: vless
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  tls: true
-  servername: ld.223350.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ld.223350.xyz
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
