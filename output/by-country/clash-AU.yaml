@@ -26,14 +26,14 @@ proxies:
   port: 20270
   udp: true
   type: vless
-  uuid: 8da6f662-e36b-4eff-99f9-43a842911707
+  uuid: e9e24ed8-b007-4e29-b54f-1ece641e60fb
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
     short-id: e6a5a4a9115456de
   servername: www.yahoo.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
