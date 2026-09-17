@@ -16,7 +16,7 @@ proxies:
     public-key: PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI
     short-id: 5606d4a25c99e7af
   servername: sync-bridge.org
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 153.52.92.81
   port: 1080
