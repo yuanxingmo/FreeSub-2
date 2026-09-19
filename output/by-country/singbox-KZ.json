@@ -4,29 +4,27 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.76.194",
-      "server_port": 443,
-      "password": "Telegram_healer_config",
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
+      "server": "62.233.39.9",
+      "server_port": 8443,
+      "uuid": "b2141c97-76af-ff6f-839b-70a53e23aad9",
       "tls": {
         "enabled": true,
-        "server_name": "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "dl.dell.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
+          "short_id": ""
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed",
-        "headers": {
-          "Host": "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "TunService"
       }
     },
     {
@@ -34,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

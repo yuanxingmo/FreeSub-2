@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: 209.33.167.234
+  server: 43.175.131.30
   port: 443
   udp: true
   type: vless
@@ -27,21 +27,10 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /article?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 118.193.57.167
-  port: 49667
-  udp: true
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /d46bf492
-- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
   server: 34.15.162.1
   port: 443
   udp: true
@@ -52,7 +41,21 @@ proxies:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
     short-id: ca672c53fbbac555
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: ios
+- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
+  server: 104.18.26.90
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  tls: true
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
 proxy-groups:
 - name: PROXIES
   type: select

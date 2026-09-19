@@ -5,21 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: 38d6b629-64c2-4c31-a10d-26eb3a2a053d
-  tls: true
-  servername: lHNs3ww2-CXQ-Gj1vvOBkEPIg4noPkc.hqu4v38Hi9iFtcp6mZfMX-3bmx.WoRKeRS.dEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/cxl8Wn1ylnsk63nJ0
-    headers:
-      Host: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
   server: 194.87.59.13
   port: 2085
   udp: true
@@ -28,6 +13,29 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 194.87.59.104
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 7b07d862-b698-47c1-884b-3e7dd6c8b862
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 188.130.207.30
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -35,6 +43,7 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -42,5 +51,6 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
