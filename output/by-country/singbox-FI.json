@@ -44,16 +44,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "me6.movieseryalirani.ir",
-      "server_port": 57361,
-      "uuid": "ed815caa-bff1-4419-8c61-1d108eabaf1f",
-      "security": "auto"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
       "server": "iq5ny.pleiades.codes",
       "server_port": 8443,
       "password": "0dca2cfe-98eb-4f9d-9a47-cf87510c558b",
@@ -70,8 +62,7 @@
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
       ]
     },
     {
@@ -80,8 +71,7 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
