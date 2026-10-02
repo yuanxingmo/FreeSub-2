@@ -5,6 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  server: 178.83.46.216
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 83.217.9.140
   port: 43000
   udp: true
@@ -17,12 +23,13 @@ proxies:
     short-id: 68d2eb23
   servername: 83.217.9.140
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 178.83.46.216
-  port: 2053
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  server: bale.xv98.ir
+  port: 5051
   udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 68mL2QkZEBlxWa3hcslGDw
 proxy-groups:
 - name: PROXIES
   type: select
@@ -30,6 +37,7 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -37,5 +45,6 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
 rules:
 - MATCH,PROXIES

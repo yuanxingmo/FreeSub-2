@@ -23,7 +23,7 @@ proxies:
   sni: streambox.wwwinternetvideo.click
   skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 144.31.49.47
+  server: 45.192.12.93
   port: 443
   udp: true
   type: hysteria2
