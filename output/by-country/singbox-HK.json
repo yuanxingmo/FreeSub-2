@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
-      "server": "181.215.18.110",
-      "server_port": 1080,
+      "server": "sth.free-outline.giize.com",
+      "server_port": 1081,
       "method": "chacha20-ietf-poly1305",
-      "password": "m5nsedvdczx6x06e"
+      "password": "n7vuxdsmlqnrbxqe"
     },
     {
       "type": "shadowsocks",
@@ -20,16 +20,56 @@
       "password": "pno0e2keji2gsfea"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
-      "server": "sth.free-outline.giize.com",
-      "server_port": 1081,
-      "method": "chacha20-ietf-poly1305",
-      "password": "5koepr9k4rjabc1z"
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%3a%2f%2ft.me%2fwangcai2",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "server": "007618a8-tmm5c0-tvvhcz-tl32.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "007618a8-tmm5c0-tvvhcz-tl32.hk3.hyhuawei.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
+      "server": "149.88.78.173",
+      "server_port": 443,
+      "password": "53210e66-b1a6-484d-85e9-4e0e8432c47c",
+      "tls": {
+        "enabled": true,
+        "server_name": "node2.luoye.ee",
+        "insecure": false
+      }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "server": "34.96.188.243",
       "server_port": 443,
       "uuid": "75d38591-267e-4d89-98bc-164f25b50880",
@@ -49,55 +89,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "202.146.222.174",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%ef%a3%bf%c3%bc%c3%a1",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-      "server": "185.244.208.69",
-      "server_port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "strong-haddock.rooster465.autos",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
       "server": "mz.hkychina.com",
       "server_port": 8443,
       "password": "HysTeria2026!Proxy",
@@ -109,7 +101,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
       "server": "194.99.79.26",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -121,12 +113,59 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/linkvws"
+        "path": "/linkvws",
+        "headers": {
+          "Host": "aksai.org"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
+      "server": "strong-haddock.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "strong-haddock.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
+      "server": "47.238.210.5",
+      "server_port": 13779,
+      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
+          "short_id": "af1bdd293097b664"
+        }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
+      "server": "202.146.222.89",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
       "server": "ru1.xiaoliyu.cyou",
       "server_port": 18333,
       "password": "19f72087-4591-4d72-930b-2697078ec2be",
@@ -134,6 +173,26 @@
         "enabled": true,
         "server_name": "ru1.xiaoliyu.cyou",
         "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
+      "server": "telegramx.khp25.com",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "m5nsedvdczx6x06e"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe",
+      "server": "103.38.82.221",
+      "server_port": 443,
+      "password": "66974838-ee71-481c-b9dd-172edbccece7",
+      "tls": {
+        "enabled": true,
+        "server_name": "node1.luoye.ee",
+        "insecure": false
       }
     },
     {
@@ -151,7 +210,11 @@
         "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe"
       ]
     },
     {
@@ -168,7 +231,11 @@
         "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
