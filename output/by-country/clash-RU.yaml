@@ -5,21 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 194.87.68.140
-  port: 50660
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 194.38.11.86
-  port: 65443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: du-rov.secureservice.top
+  server: 5.42.99.64
   port: 8443
   udp: true
   type: vless
@@ -31,20 +17,27 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 45.12.75.242
-  port: 26424
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 139.28.168.126
+  port: 8080
+  udp: true
+  type: hysteria2
+  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  sni: hopp-honkong-new.roxa.org
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 31.131.251.17
+  port: 443
   udp: true
   type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  uuid: 9ea8b000-58ce-005a-b108-989dd4f248f1
+  flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 5.42.99.64
+  servername: quatro.lmstream.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: du-rov.secureservice.top
   port: 8443
   udp: true
   type: vless
@@ -65,7 +58,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -75,6 +67,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 rules:
 - MATCH,PROXIES
