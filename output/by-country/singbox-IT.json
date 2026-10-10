@@ -13,10 +13,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
-      "server": "57.131.48.45",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
+      "server": "91.201.65.122",
+      "server_port": 9097,
+      "method": "aes-256-cfb",
+      "password": "Sn5B7jTqr76aCJT8"
     },
     {
       "type": "vless",
@@ -41,18 +41,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
-      "server": "91.201.65.122",
-      "server_port": 9097,
-      "method": "aes-256-cfb",
-      "password": "Sn5B7jTqr76aCJT8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
-      "server": "91.201.65.122",
-      "server_port": 9053,
-      "method": "aes-256-cfb",
-      "password": "SBM7R883jBmnqe6C"
+      "server": "57.131.48.45",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
     },
     {
       "type": "selector",
@@ -62,8 +54,7 @@
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇮🇹 意大利 (Italy) 04 - xiaohe",
-        "🇮🇹 意大利 (Italy) 05 - xiaohe"
+        "🇮🇹 意大利 (Italy) 04 - xiaohe"
       ]
     },
     {
@@ -73,8 +64,7 @@
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇮🇹 意大利 (Italy) 04 - xiaohe",
-        "🇮🇹 意大利 (Italy) 05 - xiaohe"
+        "🇮🇹 意大利 (Italy) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
