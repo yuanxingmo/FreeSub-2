@@ -34,6 +34,26 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 194.87.118.184
+  port: 2053
+  udp: true
+  type: hysteria2
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  sni: match-stream.lovkisport.blog
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 45.12.75.242
+  port: 26424
+  udp: true
+  type: vless
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  tls: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: freede.aiage.work
   port: 443
   udp: true
@@ -46,35 +66,23 @@ proxies:
     short-id: 57e7977c9011061c
   servername: freede.aiage.work
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 157.22.199.213
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: 91.196.32.163
   port: 443
   udp: true
-  type: vless
-  uuid: 6c21cf57-a9a9-4075-ad9f-631152bd911e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: APNUbhzINRQPRCrd6JBE0EfUF9jsP2B34x_GqrBcWH8
-    short-id: c70198222fd20079
-  servername: mint.sparkvio.cfd
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 194.87.118.184
-  port: 2053
+  type: hysteria2
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: germany3.h2corp.local
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  server: spainspeedboostjbl88.qcloud.surf
+  port: 27313
   udp: true
   type: hysteria2
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: match-stream.lovkisport.blog
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: spainspeedboostjbl88.qcloud.surf
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -87,31 +95,6 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: 45.12.75.242
-  port: 26424
-  udp: true
-  type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
-  tls: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  server: cape.flowzari.info
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6c21cf57-a9a9-4075-ad9f-631152bd911e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 5DdSLIpnYjqYTI4-yC-ulr8PGMA8YML_EWdKvOjdinc
-    short-id: 693e339ad3613446
-  servername: cape.flowzari.info
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -125,7 +108,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -139,6 +121,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
 rules:
 - MATCH,PROXIES
