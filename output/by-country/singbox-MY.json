@@ -16,22 +16,19 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-      "server": "172.67.205.213",
-      "server_port": 443,
-      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
-      "security": "auto",
+      "server": "zs.giannaycs.com",
+      "server_port": 12958,
+      "uuid": "d68fbc96-5187-4b8f-965e-eecd7a699e81",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "my.lovehk.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/KualaLumpur1",
-        "headers": {
-          "Host": "my.lovehk.xyz"
+        "server_name": "zs.giannaycs.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
         }
       }
     },
