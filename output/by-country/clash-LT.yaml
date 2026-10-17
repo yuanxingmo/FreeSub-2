@@ -12,13 +12,6 @@ proxies:
   cipher: aes-256-cfb
   password: Lp27rqyJq72bZsqX
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  server: 195.238.126.20
-  port: 9011
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   server: 84.32.109.20
   port: 443
   udp: true
@@ -31,6 +24,13 @@ proxies:
     short-id: 0da7e14db353e7d0
   servername: litv.nztvpn.com
   client-fingerprint: chrome
+- name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
+  server: 195.238.126.20
+  port: 9086
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 37Z4TFCYhfxcpc9Q
 proxy-groups:
 - name: PROXIES
   type: select
