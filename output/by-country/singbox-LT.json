@@ -7,9 +7,9 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9045,
+      "server_port": 9078,
       "method": "aes-256-cfb",
-      "password": "Lp27rqyJq72bZsqX"
+      "password": "JCJpbRbQZNw9XFZG"
     },
     {
       "type": "vless",
@@ -43,7 +43,7 @@
         "server_name": "b58e68t.lt1.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
