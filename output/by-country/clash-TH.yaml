@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 172.67.168.158
-  port: 2087
+- name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  server: 104.16.10.2
+  port: 443
   udp: true
   type: vless
-  uuid: 1d0e8e53-6999-4752-ac21-c0c54ff5bc09
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   tls: true
-  servername: vn11vina.210z.dev
+  servername: v2ray.simspeedup.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vlessvina
+    path: /ws
     headers:
-      Host: vn11vina.210z.dev
+      Host: v2ray.simspeedup.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
 rules:
 - MATCH,PROXIES
