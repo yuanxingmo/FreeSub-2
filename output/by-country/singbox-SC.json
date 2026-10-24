@@ -4,32 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-      "server": "su106.izzzzzi.com",
-      "server_port": 20008,
-      "password": "4fd2b10b6a754019",
-      "tls": {
-        "enabled": true,
-        "server_name": "su106.izzzzzi.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-      "server": "ui108.pacemakere.com",
-      "server_port": 20008,
-      "password": "6ab93ec68bd94b76",
-      "tls": {
-        "enabled": true,
-        "server_name": "ui108.pacemakere.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
       "server": "144.31.50.236",
       "server_port": 443,
       "uuid": "1c332eae-7e02-4acd-996d-4eb3e652401c",
@@ -53,18 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
