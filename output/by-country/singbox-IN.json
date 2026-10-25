@@ -11,10 +11,7 @@
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
+        "path": "/vless"
       }
     },
     {
@@ -25,7 +22,10 @@
       "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
       "security": "auto",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "headers": {
+          "Host": "in-152.67.8.205-0179"
+        }
       }
     },
     {
