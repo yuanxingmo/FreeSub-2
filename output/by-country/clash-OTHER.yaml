@@ -5,16 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 162.159.36.20
+  server: www.ubuntuupdates.com
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: vmess
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: www.ubuntuupdates.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /assignment
+    path: /truth
+    headers:
+      Host: www.ubuntuupdates.com
 proxy-groups:
 - name: PROXIES
   type: select
