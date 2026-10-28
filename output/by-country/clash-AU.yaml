@@ -5,15 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 149.28.177.190
-  port: 35652
+  server: 38.110.1.246
+  port: 18000
   udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: au001.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   server: 45.63.30.142
   port: 443
