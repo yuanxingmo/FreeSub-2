@@ -38,7 +38,7 @@
       "tls": {
         "enabled": true,
         "server_name": "diffoscope.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -63,29 +63,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
-      "server": "89.22.224.146",
-      "server_port": 43788,
-      "uuid": "6fbd9bd1-ccd4-4e2f-a918-a0f871965763",
-      "tls": {
-        "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -93,8 +70,7 @@
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
       ]
     },
     {
@@ -104,8 +80,7 @@
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

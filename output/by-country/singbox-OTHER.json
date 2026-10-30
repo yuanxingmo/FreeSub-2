@@ -4,25 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "103.247.28.203",
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "www.gptcloudai.com",
       "server_port": 443,
-      "uuid": "64726966-0000-4000-8000-740000000000",
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "parsa-panel-dy55x.railway1385-2a46.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "www.gptcloudai.com",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/truth",
         "headers": {
-          "Host": "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+          "Host": "www.gptcloudai.com"
         }
       }
     },
@@ -31,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
