@@ -17,18 +17,18 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 177.3.208.65
-  port: 443
+  server: 206.1.101.85
+  port: 42654
   udp: true
   type: vless
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  uuid: 5a82be1c-ed6a-4f98-a767-05df0f7be3e7
   tls: true
-  servername: tgmansion.site
+  servername: 206.1.101.85
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vless-tr
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select

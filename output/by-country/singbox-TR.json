@@ -26,21 +26,24 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "server": "177.3.208.65",
-      "server_port": 443,
-      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "server": "206.1.101.85",
+      "server_port": 42654,
+      "uuid": "5a82be1c-ed6a-4f98-a767-05df0f7be3e7",
       "tls": {
         "enabled": true,
-        "server_name": "tgmansion.site",
+        "server_name": "206.1.101.85",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/vless-tr"
+        "path": "/"
       }
     },
     {
