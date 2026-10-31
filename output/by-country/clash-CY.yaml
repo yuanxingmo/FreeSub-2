@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
-  server: 5.253.28.240
+  server: hydra.yokkastars.com
   port: 40443
   udp: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
     public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
     short-id: 88b6
   servername: deepl.com
-  client-fingerprint: random
+  client-fingerprint: qq
 - name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
   server: hydra.yokkastars.com
   port: 2443
