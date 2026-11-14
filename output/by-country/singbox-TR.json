@@ -14,7 +14,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -36,11 +36,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       }
     },
     {
@@ -52,7 +48,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
-        "insecure": false
+        "insecure": true
       }
     },
     {
