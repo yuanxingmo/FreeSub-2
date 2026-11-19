@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 45.144.52.252
+  server: 45.144.52.195
   port: 443
   udp: true
   type: vless
@@ -13,9 +13,9 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: -GuGq2rg6lgl4LcxHBFhBZCKKEtES2EGeD2qwXilrXI
-  servername: wergmb.wey-land.net
-  client-fingerprint: firefox
+    public-key: wpKYWqa_j7WXClXDdSL-llXhjH918G_U7jfpHAMSGWk
+  servername: fl-modx.nodexphere.net
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 45.144.53.18
   port: 443
@@ -29,7 +29,7 @@ proxies:
   servername: gsdfmb.wey-land.net
   client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 45.144.52.195
+  server: 45.144.52.252
   port: 443
   udp: true
   type: vless
@@ -37,9 +37,9 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: wpKYWqa_j7WXClXDdSL-llXhjH918G_U7jfpHAMSGWk
-  servername: fl-modx.nodexphere.net
-  client-fingerprint: chrome
+    public-key: -GuGq2rg6lgl4LcxHBFhBZCKKEtES2EGeD2qwXilrXI
+  servername: wergmb.wey-land.net
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
   server: 45.144.234.157
   port: 14430
@@ -60,7 +60,7 @@ proxies:
   sni: lakes.blog-forme.ru
   skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
-  server: 198.202.24.142
+  server: 172.64.79.163
   port: 2083
   udp: true
   type: vless
