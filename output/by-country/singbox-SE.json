@@ -33,11 +33,7 @@
       "tls": {
         "enabled": true,
         "server_name": "138-124-86-230.sslip.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "grpc",
@@ -61,22 +57,6 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
-      "server": "77.232.143.142",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "volumestyle.komediyatorg.net",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
       "server": "185.117.88.9",
       "server_port": 8443,
       "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
@@ -96,26 +76,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - xiaohe",
-      "server": "2.26.93.106",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "depotchannel.lucheeebezlimitnoekino.stream",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -124,9 +84,7 @@
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 07 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
       ]
     },
     {
@@ -137,9 +95,7 @@
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 07 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
