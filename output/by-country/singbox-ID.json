@@ -4,15 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "ibsdsf.df6h451rh.xin",
+      "type": "vless",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
+      "server": "kozel.cc.cd",
       "server_port": 443,
-      "password": "2902c46c8493",
+      "uuid": "3b01a777-55e7-49f6-8637-d94ee69607c6",
       "tls": {
         "enabled": true,
-        "server_name": "docs.microsoft.com",
-        "insecure": true
+        "server_name": "kozel.cc.cd",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/118.151.222.66=17317fp=chrome",
+        "headers": {
+          "Host": "kozel.cc.cd"
+        }
       }
     },
     {
@@ -20,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
