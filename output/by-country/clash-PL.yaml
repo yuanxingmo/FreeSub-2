@@ -5,12 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 217.30.10.70
-  port: 9037
+  server: devcdn.icu
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
+  type: vless
+  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  tls: true
+  servername: devcdn.icu
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /edge/chunk/b2265efffa29/
+    headers:
+      Host: devcdn.icu
 proxy-groups:
 - name: PROXIES
   type: select
